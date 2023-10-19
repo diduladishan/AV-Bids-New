@@ -50,6 +50,19 @@ function Router() {
       layout: HomeLayout,
       routes: [{ element: lazy(() => import("../pages/8_about_us")) }],
     },
+
+    {
+      path: "/6_existing_user",
+      layout: EmptyLayout,
+      routes: [{ element: lazy(() => import("../pages/6_existing_user")) }],
+    },
+
+    {
+      path: "/7_contact_us",
+      layout: HomeLayout,
+      routes: [{ element: lazy(() => import("../pages/7_contact_us")) }],
+    },
+
     { path: "*", element: lazy(() => import("./404")) },
 
     // {

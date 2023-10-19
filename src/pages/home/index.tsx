@@ -108,25 +108,26 @@ function index() {
         <Link to="/event-planner">
           <div>1_event Planner</div>
         </Link>
-
         <Link to="/av_providers">
           <div>AV_Providers</div>
         </Link>
-
         <Link to="/3_services">
           <div>3_services</div>
         </Link>
-
         <Link to="/4_event_categories">
           <div>Event Categories</div>
         </Link>
-
         <Link to="/5_01_create_event_planner">
           <div>5_01_create_event_planner</div>
         </Link>
-
         <Link to="/8_about_us">
           <div>8_about_us</div>
+        </Link>
+        <Link to="/6_existing_user">
+          <div>6_existing_users (sign in page)</div>
+        </Link>
+        <Link to="/7_contact_us">
+          <div>7_contact_us</div>
         </Link>
       </section>
     </div>
