@@ -39,7 +39,7 @@ function Router() {
 
     {
       path: "/5_01_create_event_planner",
-      layout: HomeLayout,
+      layout: EmptyLayout,
       routes: [
         { element: lazy(() => import("../pages/5_01_create_event_planner")) },
       ],

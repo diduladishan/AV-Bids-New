@@ -1659,10 +1659,10 @@
   resolved "https://registry.npmjs.org/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
-"@material-tailwind/react@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@material-tailwind/react/-/react-2.1.2.tgz#4148a399d3cf12a68aad18865ada659066fab090"
-  integrity sha512-/R5aurer27jB4eFyw4YBgLHBRE5XZxWCLPuI8rz2VMaDdaTxgrFBBH0ZUW5YFJLE+71t+Bm9HY5KUtU3mZldMg==
+"@material-tailwind/react@^2.1.4":
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@material-tailwind/react/-/react-2.1.4.tgz#bc4aa182736cbdef7c5151049902569de8a6f53b"
+  integrity sha512-dRHnC+Ka0IJ8KSfToBmlJRy9gAPv6F1oVZb+ABOPcIR8LxBhAXXhMAjtQf9ilG0nq2VK9AISsYFtyWBsr8Y88A==
   dependencies:
     "@floating-ui/react" "0.19.0"
     classnames "2.3.2"
@@ -2244,32 +2244,16 @@
   resolved "https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.5.tgz"
   integrity sha512-xrO9OoVPqFuYyR/loIHjnbvvyRZREYKLjxV4+dY6v3FQR3stQ9ZxIGkaclF7YhI9hfjpuTbu14hZEy94qKLtOA==
 
-"@types/react-dom@^18.0.0":
+"@types/react-dom@^18.0.0", "@types/react-dom@^18.2.13":
   version "18.2.13"
   resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-18.2.13.tgz"
   integrity sha512-eJIUv7rPP+EC45uNYp/ThhSpE16k22VJUknt5OLoH9tbXoi8bMhwLf5xRuWMywamNbWzhrSmU7IBJfPup1+3fw==
   dependencies:
     "@types/react" "*"
 
-"@types/react-dom@^18.2.13":
-  version "18.2.13"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.13.tgz#89cd7f9ec8b28c8b6f0392b9591671fb4a9e96b7"
-  integrity sha512-eJIUv7rPP+EC45uNYp/ThhSpE16k22VJUknt5OLoH9tbXoi8bMhwLf5xRuWMywamNbWzhrSmU7IBJfPup1+3fw==
-  dependencies:
-    "@types/react" "*"
-
-"@types/react@*":
+"@types/react@*", "@types/react@^18.2.28":
   version "18.2.28"
   resolved "https://registry.npmjs.org/@types/react/-/react-18.2.28.tgz"
-  integrity sha512-ad4aa/RaaJS3hyGz0BGegdnSRXQBkd1CCYDCdNjBPg90UUpLgo+WlJqb9fMYUxtehmzF3PJaTWqRZjko6BRzBg==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@^18.2.28":
-  version "18.2.28"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.28.tgz#86877465c0fcf751659a36c769ecedfcfacee332"
   integrity sha512-ad4aa/RaaJS3hyGz0BGegdnSRXQBkd1CCYDCdNjBPg90UUpLgo+WlJqb9fMYUxtehmzF3PJaTWqRZjko6BRzBg==
   dependencies:
     "@types/prop-types" "*"
