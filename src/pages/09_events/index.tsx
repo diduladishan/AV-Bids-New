@@ -22,7 +22,7 @@ export function index() {
       <div>
         <h2 className="text-center text-primary">Event Listings</h2>
       </div>
-      <div className="flex">
+      <div className="flex w-full ">
         <Card className="h-[calc(120vh-2rem)] w-full max-w-[20rem] p-4  bg-[#F3F1FB]">
           <div className="mb-2 p-4">
             <div>
@@ -138,7 +138,7 @@ export function index() {
           </div>
         </Card>
 
-        <div className="flex justify-center">
+        <div className="flex justify-between bg-[#889867] w-full">
           <div>
             <img
               src={EVENTS_01}
