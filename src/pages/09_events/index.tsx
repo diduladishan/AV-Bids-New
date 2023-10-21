@@ -21,10 +21,10 @@ export function index() {
       <div>
         <h2 className="text-center text-primary mb-16">Event Listings</h2>
       </div>
-      <div className="flex justify-center w-full gap-8 ">
-        <Card className="h-[calc(120vh-2rem)] w-full max-w-[20rem] p-4  bg-[#F3F1FB]">
+      <div className="flex justify-center w-full gap-8 mb-6">
+        <Card className="h-[calc(125vh-2rem)] w-full max-w-[20rem] p-4  bg-[#F3F1FB]">
           <div className="mb-2 p-4">
-            <div>
+            <div className="mb-4">
               <h6>Event Type</h6>
               <div className="flex  items-center">
                 <Checkbox defaultChecked crossOrigin="" />{" "}
@@ -38,7 +38,7 @@ export function index() {
               </div>
             </div>
 
-            <div>
+            <div className="mb-4">
               <h6>Event Categories</h6>
               <div className="flex  items-center">
                 <Checkbox defaultChecked crossOrigin="" />{" "}
@@ -50,8 +50,8 @@ export function index() {
               </div>
             </div>
 
-            <div>
-              <h6>Coporate Categories</h6>
+            <div className="mb-4">
+              <h6 className="mb-4">Coporate Categories</h6>
               <div className="w-72">
                 <Select label="Select Version">
                   <Option>All</Option>
@@ -63,7 +63,7 @@ export function index() {
               </div>
             </div>
 
-            <div>
+            <div className="mb-4">
               <h6>Price Range</h6>
               <div className="flex  items-center">
                 <Checkbox defaultChecked crossOrigin="" /> <span>$70,000</span>
