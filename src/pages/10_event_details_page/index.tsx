@@ -2,6 +2,11 @@ import EVENTDETAILS_01 from "../../assets//10_event_details_page/exclamation-cir
 import EVENTDETAILS_02 from "../../assets//10_event_details_page/carbon_time.png";
 import EVENTDETAILS_03 from "../../assets//10_event_details_page/Rectangle 3759.png";
 import EVENTDETAILS_04 from "../../assets//10_event_details_page/location.png";
+import EVENTDETAILS_05 from "../../assets//10_event_details_page/Rectangle 3760.png";
+import SPAM_ICON from "../../assets//10_event_details_page/spam.png";
+import DOWN_ARROW from "../../assets//10_event_details_page/down-arrow.png";
+import STAR_ICON from "../../assets//10_event_details_page/Star.png";
+import STAR_OUTLINE from "../../assets//10_event_details_page/star-outline.png";
 import { Textarea, Button } from "@material-tailwind/react";
 
 export function index() {
@@ -89,12 +94,12 @@ export function index() {
         <h2 className="text-[22px]">Other events by this client</h2>
 
         <div>
-          <div className="flex items-center justify-center bg-[#fff]  gap-8 p-8 h-40 rounded-lg w-max">
+          <div className="flex items-center  bg-[#fff]  gap-8 p-8 h-40 rounded-lg">
             <div>
               <img
                 src={EVENTDETAILS_03}
                 alt="aad"
-                className="object-scale-down w-[181px]"
+                className="object-scale-down w-[181px] h-[121px]"
               />
             </div>
 
@@ -109,7 +114,51 @@ export function index() {
               </div>
 
               <div className="flex items-center gap-16 mt-4">
-                <div className="flex gap-8 items-center">
+                <div className="flex gap-2 items-center">
+                  <img
+                    src={EVENTDETAILS_04}
+                    alt="aad"
+                    className="object-scale-down w-[20px]"
+                  />
+                  <p className="text-[16px] text-[#9381FF]">Phoenix, Arizona</p>
+                </div>
+
+                <p className="text-[16px]">Corporate, General Meeting</p>
+                <Button
+                  variant="filled"
+                  color="green"
+                  size="sm"
+                  className="rounded-full w-30 py-2 px-3 bg-[#B5F9C4] font-poppins"
+                >
+                  <h2 className="text-[#178751] text-[12px]">In-Person</h2>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div className="flex items-center  bg-[#fff]  gap-8 p-8 h-40 rounded-lg">
+            <div>
+              <img
+                src={EVENTDETAILS_05}
+                alt="aad"
+                className="object-scale-down w-[181px]"
+              />
+            </div>
+
+            <div>
+              <h2 className="text-[20px]">Virtual Sales Training</h2>
+
+              <div className="flex gap-36">
+                <p className="text-[18px]">
+                  Event Date: 10/10/2023 - 10/15/2023
+                </p>
+                <p className="text-[18px]">$70,000 - $150,000</p>
+              </div>
+
+              <div className="flex items-center gap-16 mt-4">
+                <div className="flex gap-2 items-center">
                   <img
                     src={EVENTDETAILS_04}
                     alt="aad"
@@ -132,6 +181,149 @@ export function index() {
           </div>
         </div>
       </div>
+
+      {/* ----------------------------------------------------------GRID SECOND PART STARTS HERE------------------------------------------------------------ */}
+      <Button
+        variant="filled"
+        color="indigo"
+        size="sm"
+        className="rounded-full w-36 py-4 mt-4 px-8 bg-primary font-poppins"
+      >
+        <span className="text-white">Submit</span>
+      </Button>
+
+      <Button
+        variant="outlined"
+        size="sm"
+        className="hidden lg:inline-block rounded-btn "
+      >
+        <span className=" text-black">Get Started</span>
+      </Button>
+
+      <div className="flex items-center gap-3">
+        <img src={SPAM_ICON} alt="aad" className="object-scale-down w-[24px]" />
+        <p className="text-[18px] underline">Flag as spam</p>
+      </div>
+
+      <div className="grid grid-cols-2 gap-4 bg-[#F3F1FB] p-6">
+        <div>
+          <div>
+            <h2 className="text-[18px]">Event Type</h2>
+            <p className="text-[18px]">In-Person</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2 className="text-[18px]">Budget</h2>
+            <p className="text-[18px]">$70,000 - $150,000</p>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <h2 className="text-[18px]">Event Category</h2>
+            <p className="text-[18px]">Corporate</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2 className="text-[18px]">Location</h2>
+            <p className="text-[18px]">Phoenix, AZ</p>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <h2 className="text-[18px]">Sub Category</h2>
+            <p className="text-[18px]">General Meeting</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2 className="text-[18px]">Proposals Due</h2>
+            <p className="text-[18px]">August 24, 2023</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-[#F3F1FB] mt-8 p-6">
+        <h2 className="text-[22px]">Attachments</h2>
+
+        <div className="flex items-center gap-20 bg-[#fff] rounded-lg p-6 mb-4">
+          <p className="text-[18px]">AV Requirements.pdf</p>
+          <div className="flex items-center justify-center rounded-full w-10 h-10 bg-purple_two">
+            <img
+              src={DOWN_ARROW}
+              alt="aad"
+              className="object-scale-down w-[15px]"
+            />
+          </div>
+        </div>
+
+        <div className="flex items-center gap-20 bg-[#fff] rounded-lg p-6 mb-4">
+          <p className="text-[18px]">AV room layout.Doc</p>
+          <div className="flex items-center justify-center rounded-full w-10 h-10 bg-purple_two">
+            <img
+              src={DOWN_ARROW}
+              alt="aad"
+              className="object-scale-down w-[15px]"
+            />
+          </div>
+        </div>
+
+        <div className="flex items-center gap-20 bg-[#fff] rounded-lg p-6">
+          <p className="text-[18px]">Event Content.Xls</p>
+          <div className="flex items-center justify-center rounded-full w-10 h-10 bg-purple_two">
+            <img
+              src={DOWN_ARROW}
+              alt="aad"
+              className="object-scale-down w-[15px]"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-[#F3F1FB] mt-8 p-6">
+        <h2 className="text-[22px]">About the event planner</h2>
+        <div className="flex items-center">
+          <img
+            src={STAR_ICON}
+            alt="aad"
+            className="object-scale-down w-[26px]"
+          />
+          <img
+            src={STAR_ICON}
+            alt="aad"
+            className="object-scale-down w-[26px]"
+          />
+          <img
+            src={STAR_ICON}
+            alt="aad"
+            className="object-scale-down w-[26px]"
+          />
+          <img
+            src={STAR_ICON}
+            alt="aad"
+            className="object-scale-down w-[26px]"
+          />
+          <img
+            src={STAR_OUTLINE}
+            alt="aad"
+            className="object-scale-down w-[26px]"
+          />
+        </div>
+
+        <div>
+          <p className="text-18px">4.59 of 99 reviews</p>
+        </div>
+
+        <div>
+          <h2 className="text-[18px]">United States</h2>
+          <p className="text-[18px]">United States</p>
+        </div>
+      </div>
+
+      {/* ----------------------------------------------------------GRID SECOND PART STARTS HERE------------------------------------------------------------ */}
     </div>
   );
 }
