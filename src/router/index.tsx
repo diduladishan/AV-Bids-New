@@ -63,6 +63,12 @@ function Router() {
       routes: [{ element: lazy(() => import("../pages/7_contact_us")) }],
     },
 
+    {
+      path: "/09_events",
+      layout: HomeLayout,
+      routes: [{ element: lazy(() => import("../pages/09_events")) }],
+    },
+
     { path: "*", element: lazy(() => import("./404")) },
 
     // {

@@ -129,6 +129,10 @@ function index() {
         <Link to="/7_contact_us">
           <div>7_contact_us</div>
         </Link>
+
+        <Link to="/09_events">
+          <div>09_events</div>
+        </Link>
       </section>
     </div>
   );
